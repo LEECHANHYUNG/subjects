@@ -1,0 +1,53 @@
+h1{
+  display : block;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin :0;
+  padding : 20px;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+ol{
+  border-right: 1px solid gray;
+  width : 100px;
+  margin :0;
+  padding-left: 35px;
+  padding-right :  1px;
+  padding-top: 25px;
+  width: 307px;
+  height: 400px;
+}
+li{
+  height :  50px;
+}
+
+#active{
+  color:red;
+}
+
+.saw{
+    color: gray;
+}
+
+iframe{
+  border:5px solid red;
+  margin-top: 0px;
+  margin-left: 0px;
+
+}
+h2{
+  margin-bottom: 0px;
+  margin-top: 180px;
+}
+ul{
+  height: 170px;
+}
+#grid{
+  display: grid;
+  grid-template-columns:200px 1fr;
+}
+#article{
+  padding-left: 25px;
+}
