@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>다전공 잔여 과목 확인</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src = "colors.js"></script>
+  </head>
+  <body>
+    <input id = "night_day" type="button"  value="야간 모드" onclick="
+        nightDayHandler(this);
+      ">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      ul{
+        height: 110px;
+      }
+      ol{
+        height: 340px;
+      }
+      div{
+        height: 20px;
+      }
+    </style>
+    <h1>다전공 잔여 과목 확인</h1>
+    <ol>
+        <li><a href="Elective.html" >교양과정</a></li>
+        <li><a href="major.html" >전공과정</a></li>
+        <div><li><a href="submajor.html" >다전공과정</a></li></div>
+        <ul>
+          <li><h3><a href="1st.html">1학기</a></h3></li>
+          <li><h3><a href = "2nd.html">2학기</a><h3></li>
+        </ul>
+
+        <li><a href="schedule.html" >학사일정</a></li>
+        <li><a href="shortcuts.html" >바로가기</a></li>
+    </ol>
+  </body>
+</html>
